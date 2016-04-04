@@ -1,0 +1,35 @@
+{
+  "name": "stealjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "steal-tools"
+  },
+  "author": "Sunil George",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "can": "^3.0.0-pre.1",
+    "font-awesome": "^4.5.0",
+    "jquery": "^1.11.0",
+    "open-sans-fontface": "^1.4.0",
+    "steal": "^0.15.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "steal-tools": "^0.15.5"
+  },
+  "system": {
+    "directories": { 
+      "lib": "app" 
+    },
+    "paths": {
+      "HomepageController": "/pages/homepage/HomepageController.js"
+    }
+  }
+}

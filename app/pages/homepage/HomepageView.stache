@@ -1,0 +1,1 @@
+<div class="sample-message">If there are no errors, this text from the template will be visible! This is year <span id="current-year">{{CurrentYear}}</span></div>
